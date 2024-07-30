@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma</title>
+    <script src="sumar.js" defer></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="numero1" placeholder="Ingrese primer número">
+        <input type="text" id="numero2" placeholder="Ingrese segundo número">
+        <input type="button" value="Sumar" onclick="leerNumeros()">
+        <div class="result">
+            <h1>Resultado:</h1>
+            <h1 id="resultado_h1">0</h1>
+            <input type="text" id="resultado_input" value="0" readonly>
+        </div>
+    </div>
+</body>
+
+</html>
